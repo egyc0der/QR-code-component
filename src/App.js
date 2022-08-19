@@ -1,9 +1,10 @@
-import './App.css';
+
+import Card from './components/Card';
 
 function App() {
-  return (
-    <div className='text-2xl font-semibold text-violet-900 animate-pulse'>Hello World!</div>
-  );
+  return <div className='bg-[#d5e1ef] w-screen h-screen flex items-center justify-center'>
+    <Card/>
+  </div>;
 }
 
 export default App;
